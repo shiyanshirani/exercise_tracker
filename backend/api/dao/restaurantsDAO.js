@@ -49,5 +49,4 @@ export default class RestaurantsDAO {
             return { restaurantsList: [], totalNumRestaurants: 0}
         }
     }
-    
 }
