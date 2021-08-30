@@ -7,8 +7,7 @@ export default class RestaurantsDAO {
         }
         try {
             restaurants = await conn.db(process.env.RESTREVIEWS_NS).collections("restaurants")
-        }
-        catch (e) {
+        } catch (e) {
             console.error(`Unable to establish a connection handle in restaurantsDAO: ${e}`,)
         }
     }
@@ -50,4 +49,5 @@ export default class RestaurantsDAO {
             return { restaurantsList: [], totalNumRestaurants: 0}
         }
     }
+    
 }
