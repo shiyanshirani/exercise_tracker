@@ -30,7 +30,7 @@ export default class RestaurantsDAO {
 
         let cursor
 
-        try {
+        // try {
             cursor = await restaurants.find(query)
         } catch (e) {
             console.error(`Unable to issue find command ${e}`)
