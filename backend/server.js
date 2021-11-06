@@ -3,7 +3,7 @@ import cors from "cors"
 import restaurants from "./api/restaurants.route.js"
 
 // Creating app
-const app = express()
+//const app = express()
 
 // App's gonna use cors
 app.use(cors())
